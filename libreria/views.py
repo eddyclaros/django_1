@@ -11,3 +11,12 @@ def nosotros(request):
 
 def libros(request):
     return render(request,'libros/index.html')
+
+def crear(request):
+    return render(request,'libros/crear.html')
+
+def editar(request):
+    return render(request,'libros/editar.html')
+
+def eliminar(request):
+    return render(request,'libros/eliminar.html')
